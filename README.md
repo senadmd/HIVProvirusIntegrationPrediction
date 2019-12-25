@@ -4,23 +4,23 @@ This repository is part of a degree project written by Senad Matuh Delic (full-t
 
 ## Getting Started
 
-This repository contains multiple python notebooks that use [Keras API](https://keras.io/) to create a convolutional neural network for predicting HIV integration sites. The main notebook is [HIV_Provirus_CNN.ipynb]() while the other notebooks are attempts at improving the performance of the main neural network design.  
+This repository contains multiple python notebooks that use [Keras API](https://keras.io/) to create a convolutional neural network for predicting HIV integration sites. The main notebook is [HIV_Provirus_CNN.ipynb](HIV_Provirus_CNN.ipynb) while the other notebooks are attempts at improving the performance of the main neural network design.  
 
-The python notebooks can be executed on a machine having Tensorflow installed, or in Google Colaboratory [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/senadmd/HIVProvirusIntegrationPrediction/HIV_Provirus_CNN.ipynb] with GPU runtime.
+The python notebooks can be executed on a machine having Tensorflow installed, or in Google Colaboratory [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/senadmd/HIVProvirusIntegrationPrediction/HIV_Provirus_CNN.ipynb) with GPU runtime.
 
 ### Prerequisites
 
 To run this project you need [Tensorflow 1.15.0](https://www.tensorflow.org/) with [Matplotlib](https://matplotlib.org/) and [Biopython 1.76](https://biopython.org/).
 
 ## Performance and comparison
-In attempt at improving the performance of CNN developed in the notebook [HIV_Provirus_CNN.ipynb](), we have modified the neural network design with the addition L2 regularization and layers performing batch normalization. By adding batch normalization, one will see that the neural network performs better on the training set, but this improvement is not reflected on the validation data as shown below. The addition of L2 regularization did not improve the performance of model at all. 
+In attempt at improving the performance of CNN developed in the notebook [HIV_Provirus_CNN.ipynb](HIV_Provirus_CNN.ipynb), we have modified the neural network design with the addition L2 regularization and layers performing batch normalization. By adding batch normalization, one will see that the neural network performs better on the training set, but this improvement is not reflected on the validation data as shown below. The addition of L2 regularization did not improve the performance of model at all. 
 
 | Notebook | Validation Loss | Validation Accuracy |
 | --- | --- | --- |
-| [HIV_Provirus_CNN.ipynb]()  | 0.4643 | 0.7786|
-| [HIV_Provirus_CNN_BatchNormalizationAndL2.ipynb]() | 0.6289 | 0.7069 |
-| [HIV_Provirus_CNN_L2Regularization.ipynb]() | 0.6266 | 0.6880 |
-| [HIV_Provirus_CNN_BatchNormalization.ipynb]() | 0.7883 | 0.6467 |
+| [HIV_Provirus_CNN.ipynb](HIV_Provirus_CNN.ipynb)  | 0.4643 | 0.7786|
+| [HIV_Provirus_CNN_BatchNormalizationAndL2.ipynb](HIV_Provirus_CNN_BatchNormalizationAndL2.ipynb) | 0.6289 | 0.7069 |
+| [HIV_Provirus_CNN_L2Regularization.ipynb](HIV_Provirus_CNN_L2Regularization.ipynb) | 0.6266 | 0.6880 |
+| [HIV_Provirus_CNN_BatchNormalization.ipynb](HIV_Provirus_CNN_BatchNormalization.ipynb) | 0.7883 | 0.6467 |
 
 
 ## Authors
