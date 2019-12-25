@@ -6,7 +6,7 @@ This repository is part of a degree project written by Senad Matuh Delic (full-t
 
 This repository contains multiple python notebooks that use [Keras API](https://keras.io/) to create a convolutional neural network for predicting HIV integration sites. The main notebook is [HIV_Provirus_CNN.ipynb](HIV_Provirus_CNN.ipynb) while the other notebooks are attempts at improving the performance of the main neural network design.  
 
-The python notebooks can be executed on a machine having Tensorflow installed, or in Google Colaboratory [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/senadmd/HIVProvirusIntegrationPrediction/HIV_Provirus_CNN.ipynb) with GPU runtime.
+The python notebooks can be executed on a machine having Tensorflow installed, or in Google Colaboratory [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/senadmd/HIVProvirusIntegrationPrediction/blob/master/HIV_Provirus_CNN.ipynb) with GPU runtime.
 
 ### Prerequisites
 
