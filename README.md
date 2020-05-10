@@ -18,6 +18,7 @@ In attempt at improving the performance of CNN developed in the notebook [HIV_Pr
 | Notebook | Validation Loss | Validation Accuracy |
 | --- | --- | --- |
 | [HIV_Provirus_CNN.ipynb](HIV_Provirus_CNN.ipynb)  | 0.4643 | 0.7786|
+| [HIV_Provirus_CNN_SGD.ipynb](HIV_Provirus_CNN_SGD.ipynb)  | 0.6324 | 0.6442|
 | [HIV_Provirus_CNN_BatchNormalizationAndL2.ipynb](HIV_Provirus_CNN_BatchNormalizationAndL2.ipynb) | 0.6289 | 0.7069 |
 | [HIV_Provirus_CNN_L2Regularization.ipynb](HIV_Provirus_CNN_L2Regularization.ipynb) | 0.6266 | 0.6880 |
 | [HIV_Provirus_CNN_BatchNormalization.ipynb](HIV_Provirus_CNN_BatchNormalization.ipynb) | 0.7883 | 0.6467 |
